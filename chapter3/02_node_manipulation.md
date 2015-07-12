@@ -23,7 +23,7 @@
 
 因为 DOM 的存在，这使我们可以通过 JavaScript 来获取、创建、修改、或删除节点。
 
-NOTE：下面提供的例子中的 `element` 均为已经被去出的元素节点。
+NOTE：下面提供的例子中的 `element` 均为已经被取出的元素节点。
 
 ### 获取节点
 
@@ -163,7 +163,7 @@ var p = elements[0];
 
 ##### getElementsByClassName
 
-获取指定元素中具有指定 `class` 的所有节点。多个 `class` 可的选择可使用空格分隔，与顺序无关。
+获取指定元素中具有指定 `class` 的所有节点。多个 `class` 的选择可使用空格分隔，与顺序无关。
 
 ```javascript
 var elements = element.getElementsByClassName('className');

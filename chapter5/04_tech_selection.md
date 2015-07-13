@@ -431,24 +431,24 @@ NOTE：以下讨论都是基于 JavaScript 的框架。
 - 提供节点属性、样式、类名的操作
 - 保证目标平台的跨浏览器支持
 
-常用的 DOM 库有 **jQuery**（使用链式接口），**zepto.JS**，**MOOTOO.JS**（使用原生 DOM 对象，通过直接跨站了 DOM 原生对象）。
+常用的 DOM 库有 **jQuery**（使用链式接口），**zepto.JS**，**MOOTOOLS**（使用原生 DOM 对象，通过直接跨站了 DOM 原生对象）。
 
 **基础领域**
 
 |库名|大小|兼容性|优点|缺点|
 |----|----|------|----|----|
-|MOOTOO.JS|96KB|IE6+|概念清晰、无包装对象、接口设计优秀、源码清晰易懂、不局限于 DOM 与 AJAX|扩展原生对象（致命）、社区衰弱|
+|MOOTOOLS|96KB|IE6+|概念清晰、无包装对象、接口设计优秀、源码清晰易懂、不局限于 DOM 与 AJAX|扩展原生对象（致命）、社区衰弱|
 |jQuery|94KB|IE6+|社区强大普及率高、包装对象、专注于 DOM|包装对象（容易混淆）|
-|zepto.JS|25KB|IE10+|小且启动快、接口与 jQuery 兼容、提供简单手势操作|无法与 jQuery 100% 对于、支持浏览器少、功能弱|
+|zepto.JS|25KB|IE10+|小且启动快、接口与 jQuery 兼容、提供简单手势操作|无法与 jQuery 100% 对应、支持浏览器少、功能弱|
 
 **专业领域**
 
 |领域|库名|大小|描述|
 |----|----|----|----|
-|手势|Hammer.JS|12KB|常见手势封装（Tab、Hold、Transform、Swifp）并支持自定义|
+|手势|Hammer.JS|12KB|常见手势封装（Tap、Hold、Transform、Swipe）并支持自定义|
 |高级动画|Velocity.JS|12KB|复杂动画序列实现，不仅局限于 DOM|
 |视频播放|Video.JS|101KB|类似原生 video 标签的使用方式，对低级浏览器使用 flash 播放器|
-|局部滚动|isscroll.JS|13KB|移动端`position:fix` + `overflow:scroll`的救星|
+|局部滚动|iscroll.JS|13KB|移动端`position:fix` + `overflow:scroll`的救星|
 
 ##### Communication
 
@@ -545,7 +545,7 @@ NOTE：有存在不使用 jQuery 版本的 Bootstrap 可供使用。
 - 历史管理
 - 对目标浏览器的兼容性支持
 
-|路由库名|大小|特定|支持|
+|路由库名|大小|特点|支持|
 |--------|----|----|----|
 |page.JS|6.2KB|类似 Express.Router 的路由规则的前端路由库|IE8+|
 |Director.JS|10KB|可以前后端使用同一套规则定义路由|IE6+|
